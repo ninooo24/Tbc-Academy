@@ -6,7 +6,7 @@ birth_day = int(input("Enter the day of birth(1-31): "))
 
 
 if birth_year<0 or birth_year>2024:
-    print('pleas enter the valid year')
+    print('please enter the valid year')
 elif birth_month>12 or birth_month<0:
     print('please enter the valid month ')
 elif birth_day>31 or birth_day<0:
