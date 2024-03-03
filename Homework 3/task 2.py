@@ -4,11 +4,11 @@ birth_year = int(input("Enter the year of birth: "))
 birth_month = int(input("Enter the month of birth(1-12): "))
 birth_day = int(input("Enter the day of birth(1-31): "))
 
-if birth_year<1 or birth_year>2024:
+if birth_year < 1 or birth_year > 2024:
     print('please enter the valid year')
-elif birth_month>12 or birth_month<1:
+elif birth_month > 12 or birth_month < 1:
     print('please enter the valid month ')
-elif birth_day>31 or birth_day<1:
+elif birth_day > 31 or birth_day < 1:
     print('please enter the valid day')
 else:
     birth_date = datetime.date(birth_year, birth_month, birth_day)

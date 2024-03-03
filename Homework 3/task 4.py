@@ -28,4 +28,3 @@ else:
         print("Your profit is", profit)
     else:
         print('Your loss is', profit)
-
