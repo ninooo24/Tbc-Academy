@@ -7,4 +7,3 @@ random_symbols = random.choice(_symbols)
 random_values = random.choice(_values)
 
 print("Random card is:", random_values, random_symbols)
-

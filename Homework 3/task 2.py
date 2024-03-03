@@ -10,13 +10,9 @@ elif birth_month > 12 or birth_month < 1:
     print('please enter the valid month ')
 elif birth_day > 31 or birth_day < 1:
     print('please enter the valid day')
+elif birth_month == 2 and birth_day > 28:
+    print('please enter the correct day(in February we have 28-29 days)')
 else:
     birth_date = datetime.date(birth_year, birth_month, birth_day)
     week_day = birth_date.strftime("%A")
     print("The weekday of the birth date is:", week_day)
-
-
-
-
-
-
