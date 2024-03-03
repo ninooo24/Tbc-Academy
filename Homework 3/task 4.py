@@ -5,11 +5,11 @@ _month = int(input('please enter the month when you bought the bitcoin: '))
 _day = int(input('please enter the day when you bought the bitcoin: '))
 _price = float(input('please enter the price you paid for bitcoin in USD: '))
 
-if _year < 0 or _year > 2024:
+if _year < 1 or _year > 2024:
     print('please enter the valid year')
-elif _month > 12 or _month < 0:
+elif _month > 12 or _month < 1:
     print('please enter the valid month ')
-elif _day > 31 or _day < 0:
+elif _day > 31 or _day < 1:
     print('please enter the valid day')
 elif _price < 0:
     print('please enter the valid price')
