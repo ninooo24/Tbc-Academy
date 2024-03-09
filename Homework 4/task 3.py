@@ -6,4 +6,3 @@ else:
         if number % i == 0:
             print(i, end=" ")
 
-
