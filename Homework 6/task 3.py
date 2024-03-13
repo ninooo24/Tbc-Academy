@@ -22,5 +22,3 @@ if tries == max_tries:
 
 print('thank you!')
 
-
-
