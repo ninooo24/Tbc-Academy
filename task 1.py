@@ -1,5 +1,3 @@
-# 1. Დაწერეთ პროგრამა რომელიც მიიღებს true ან false. Თუ პროგრამამ მიიღო true
-# , ეკრანზე დაბეჭდეთ “whoala”.
 User_input=input('please enter true or false: ')
 if User_input=="true":
     print('whoala')
@@ -8,3 +6,6 @@ elif User_input=='false':
 
 else:
     print('please reenter')
+Name=input('შეიყვანეთ სახელი და გვარი: ')
+Age=int(input('შეიყვანეთ ასაკი: '))
+print('გამარჯობა,',Name,'თქვენი წლოვანებაა',Age)
