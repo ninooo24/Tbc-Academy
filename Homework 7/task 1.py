@@ -1,4 +1,3 @@
-
 n = int(input("Please enter n between 0-20: "))
 while n <= 0 or n > 20:
     n = int(input("Please enter the correct number: "))
