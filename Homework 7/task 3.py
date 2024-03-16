@@ -12,3 +12,4 @@ while n > 0:
 
 print("reversed number is:", reversed_num)
 print("sum of digits:", sum_of_digits)
+

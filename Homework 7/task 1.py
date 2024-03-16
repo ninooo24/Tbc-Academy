@@ -1,3 +1,4 @@
+
 n = int(input("Please enter n between 0-20: "))
 while n <= 0 or n > 20:
     n = int(input("Please enter the correct number: "))
@@ -12,3 +13,4 @@ while i < n:
     summ = num_1 + num_2
     num_1 = num_2
     num_2 = summ
+
