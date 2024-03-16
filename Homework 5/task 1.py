@@ -12,4 +12,3 @@ else:
                 if count <= 3:
                     print(j, end=" ")
         print()
-

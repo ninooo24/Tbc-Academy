@@ -16,4 +16,3 @@ else:
             print(spaces + branches)
 
     print(" " * (size - 1) + "|")
-
