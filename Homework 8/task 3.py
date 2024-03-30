@@ -1,16 +1,15 @@
-user_input = input("Please enter text: ")
-
+input_str = str(input("enter a string: "))
+len_is_even = False
+if len(input_str) % 2 == 0:
+    mid_index = len(input_str) // 2 - 1
+    len_is_even = True
+else:
+    mid_index = len(input_str) // 2
 i = 0
-while i < len(user_input):
-    if len(user_input) % 2 == 0:
-        if i == 0:
-            print(user_input[i] * 5, end=" ")
-        elif i == len(user_input) - 1:
-            print(user_input[i] * 5, end=" ")
-        elif i == len(user_input) // 2 - 1:
-            print((user_input[i] + user_input[i + 1]) * 5, end=" ")
+while i < 5:
+    if len_is_even:
+        print(input_str[0], input_str[mid_index] + input_str[mid_index + 1], input_str[-1])
     else:
-        if i == 0 or i == len(user_input) - 1 or i == len(user_input) // 2:
-            print(user_input[i] * 5, end=" ")
-
+        print(input_str[0], input_str[mid_index], input_str[-1])
     i += 1
+
