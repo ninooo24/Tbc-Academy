@@ -1,0 +1,10 @@
+John,Apple,5,1.50
+Mary,Banana,3,0.75
+Kate,Orange,2,1.25
+Emma,Strawberry,4,2.00
+Elisabeth,Grapes,6,1.80
+Sophia,Pineapple,7,2.50
+Ana,Mango,8,3.00
+Olivia,Watermelon,10,4.50
+Datuna,Kiwi,9,2.75
+Nino,Peach,12,3.25

@@ -1,0 +1,6 @@
+Elisabeth,Grapes,6,1.80
+Sophia,Pineapple,7,2.50
+Ana,Mango,8,3.00
+Olivia,Watermelon,10,4.50
+Datuna,Kiwi,9,2.75
+Nino,Peach,12,3.25
