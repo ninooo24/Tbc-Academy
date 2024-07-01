@@ -1,4 +1,0 @@
-John,Apple,5,1.50
-Mary,Banana,3,0.75
-Kate,Orange,2,1.25
-Emma,Strawberry,4,2.00
