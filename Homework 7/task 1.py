@@ -12,3 +12,4 @@ while i < n:
     summ = num_1 + num_2
     num_1 = num_2
     num_2 = summ
+

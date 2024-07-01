@@ -16,3 +16,4 @@ else:
     birth_date = datetime.date(birth_year, birth_month, birth_day)
     week_day = birth_date.strftime("%A")
     print("The weekday of the birth date is:", week_day)
+

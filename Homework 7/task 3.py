@@ -7,8 +7,9 @@ sum_of_digits = 0
 
 while n > 0:
     sum_of_digits += n % 10
-    reversed_num = reversed_num * 10 + n % 10
+    reversed_num = n % 10
     n //= 10
 
 print("reversed number is:", reversed_num)
 print("sum of digits:", sum_of_digits)
+
